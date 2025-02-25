@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width:60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: Blue;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/*#output {*/
+/*    margin-top: 20px;*/
+/*    padding: 10px;*/
+/*    background: #e9ecef;*/
+/*    border-radius: 5px;*/
+/*    width:100%;*/
+/*}*/
+/*!* Apply styles to all <pre> elements *!*/
+pre {
+    white-space: pre-wrap;   /* Wrap long lines */
+    word-wrap: break-word;   /* Prevent overflow */
+    font-size: 16px;         /* Adjust font size */
+    max-width: 100%;         /* Expand dynamically */
+    overflow: auto;          /* Add scrollbar if needed */
+    background: #f4f4f4;     /* Light gray background */
+    padding: 10px;           /* Add spacing */
+    border-radius: 5px;      /* Rounded corners */
+    border: 1px solid #ccc;  /* Light border */
+    font-family: monospace;  /* Use monospace font */
+}
+/*h3{*/
+/*    color:red;*/
+/*}*/
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adds space between each form element */
+    border: 1px solid grey;
+    padding:20px;
+    margin:20px;
+    width:400px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+    background-color:lightgray;
+    border-radius: 5px;
+
+}
+
+
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.output {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.json-data {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 14px;
+}
+
+.entity-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.entity-box {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+label{
+    padding-bottom:10px ;
+    color: Black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
