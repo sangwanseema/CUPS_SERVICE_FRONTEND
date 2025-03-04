@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cups-service-ui
+  namespace: cups-service-ui
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app:  cups-service-ui
+  template:
+    metadata:
+      labels:
+        app:  cups-service-ui
+    spec:
+      containers:
+        - name:  cups-service-ui
+          image:  cups-service-ui:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80

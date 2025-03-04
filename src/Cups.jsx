@@ -19,7 +19,7 @@ function Cups() {
         }
 
         try {
-            const response = await fetch(`http://localhost:8080/cups/${productId}`);
+            const response = await fetch(`http://127.0.0.1:54684/cups/${productId}`);
             if (!response.ok) {
                 const errorText = await response.text(); // Get error response text
                 throw new Error(`Failed to fetch data: ${response.status} ${response.statusText} - ${errorText}`);
